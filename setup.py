@@ -22,4 +22,6 @@ setup(name='whendidit',
       install_requires=[
           'avro-python3'
       ],
+      test_suite='nose.collector',
+      tests_require=['nose'],
       zip_safe=False)
