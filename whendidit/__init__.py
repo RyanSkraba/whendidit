@@ -1,9 +1,10 @@
-import avro.schema
-from avro.datafile import DataFileReader, DataFileWriter
-from avro.io import DatumReader, DatumWriter
 import json
 import os.path
 import time
+
+import avro.schema
+from avro.datafile import DataFileReader, DataFileWriter
+from avro.io import DatumReader, DatumWriter
 
 schema = avro.schema.Parse(json.dumps(
     {

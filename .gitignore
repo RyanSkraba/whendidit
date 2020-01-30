@@ -1,6 +1,7 @@
 # IntelliJ
 .idea/
 *.iml
+.vscode
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -54,6 +55,7 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
+.noseids
 
 # Translations
 *.mo

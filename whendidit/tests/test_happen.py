@@ -1,9 +1,10 @@
+import os
+import tempfile
 from unittest import TestCase
 
 import avro
-import os
-import tempfile
 import whendidit
+
 
 class TestHappen(TestCase):
 

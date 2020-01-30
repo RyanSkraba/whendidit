@@ -20,7 +20,7 @@ setup(name='whendidit',
       license='ASL',
       packages=['whendidit'],
       install_requires=[
-          'avro-python3'
+          'avro-python3==1.9.1'
       ],
       test_suite='nose.collector',
       tests_require=['nose'],
