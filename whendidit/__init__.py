@@ -6,7 +6,7 @@ import avro.schema
 from avro.datafile import DataFileReader, DataFileWriter
 from avro.io import DatumReader, DatumWriter
 
-schema = avro.schema.Parse(json.dumps(
+schema = avro.schema.parse(json.dumps(
     {
         "namespace": "com.skraba.whendidit",
         "type": "record",
